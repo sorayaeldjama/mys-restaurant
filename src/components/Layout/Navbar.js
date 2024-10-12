@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, } from "react-router-dom";
+import "../../styles/NavBarStyle.css";
 import {
     AppBar,
     Box,
@@ -113,7 +114,6 @@ const navBarMobile =(
           <Toolbar />
         </Box>
   </Box>
-  <div>fhdfdjh</div>
 
 </>
     )
