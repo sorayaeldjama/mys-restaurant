@@ -1,9 +1,9 @@
 import Spaghetti from "../images/spaghetti.jpg";
 import Ratatouille from "../images/ratatouille.jpg";
-import Croissant from "../images/croissant.jpg";
+import Fallafel from "../images/fallafel.jpg";
 import Quiche from "../images/quiche.jpg";
-import CoqAuVin from "../images/coq_au_vin.jpg";
-import Bouillabaisse from "../images/bouillabaisse.jpg";
+import CoqAuVin from "../images/coquauvin.png";
+import Bouillabaisse from "../images/bouillabaisse.png";
 
 export const MenuList = [
   {
@@ -21,10 +21,10 @@ export const MenuList = [
     price: 15,
   },
   {
-    name: "Croissant",
+    name: "Falafel",
     description:
-      "Pâtisserie feuilletée, légère et beurrée, parfaite pour le petit déjeuner.",
-    image: Croissant,
+      "Plat lebanais.",
+    image: Fallafel,
     price: 3,
   },
   {
